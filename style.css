@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+	font-family: Verdana, arial, sans-serif;
+	color: #343434;
+}
+
+h1, h2, h3, p, nav
+{
+ 	font-family: Quando, arial, serif;
+ 	color: #173e43;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.error-message
+{
+    font-family: Verdana, arial, sans-serif;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.error
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(196, 214, 211);
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+article
+{
+    width: 350px;
+}
+
+article img
+{
+    width: 100%;
+    height: auto;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+footer
+{
+	background-color: #173e43;
+	color: white;
+	text-align: center;
+	padding: 2em;
+    margin-top: 1em;
+}
+
+footer a 
+{
+	color: white;
+}
+
+.cabin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.cabin-table th, .cabin-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+  
+.cabin-table th {
+    background-color: #f2f2f2;
+}
+  
+.cabin-table tr:nth-child(even) {
+    background-color: rgb(196, 214, 211);
+}
+
+.cabin-table img {
+    width: 100%;
+    height: auto;
+}
+
+.cabin-table td:nth-child(5) {
+    width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.primary-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #173e43;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.primary-button:hover {
+    background-color: #f8f8f8;
+    color: #173e43;
+    border: 1px solid #173e43;
+
+}
+.danger-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #37686e;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.danger-button:hover {
+    background-color: #0e272b;
+    color: #ffffff;
+}
+
